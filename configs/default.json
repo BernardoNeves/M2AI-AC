@@ -1,0 +1,19 @@
+[
+    {
+        "mode": "text",
+        "dataset": "datasets/text/demo.csv",
+        "random": true
+    },
+    {
+        "mode": "text",
+        "dataset": "datasets/text/steam.csv",
+        "limit": 20,
+        "random": true
+    },
+    {
+        "mode": "audio",
+        "dataset": "datasets/audio/speech_emotions.csv",
+        "limit": 5,
+        "random": true
+    }
+]
