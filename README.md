@@ -2,7 +2,7 @@
 
 ---
 
-### Datasets Used
+## Datasets Used
 
 - [Speech Emotion Recognition Voice Dataset](https://www.kaggle.com/datasets/tapakah68/emotions-on-audio-dataset)
 > Audio files labeled with emotions, varing in gender, age and country of origin.
@@ -13,6 +13,27 @@
 
 - Demo Phrases
 > A set of predefined phrases used for testing.
+
+### 1. Download Datasets
+
+```bash
+curl -L -o ./datasets/steam-reviews.zip https://www.kaggle.com/api/v1/datasets/download/andrewmvd/steam-reviews && \
+curl -L -o ./datasets/emotions-on-audio-dataset.zip https://www.kaggle.com/api/v1/datasets/download/tapakah68/emotions-on-audio-dataset
+```
+
+### 2. Unzip Datasets
+
+```bash
+unzip ./datasets/steam-reviews.zip -d ./datasets/text && \
+unzip ./datasets/emotions-on-audio-dataset.zip -d ./datasets/audio
+```
+
+### 3. Cleanup
+
+```bash
+rm ./datasets/steam-reviews.zip && \
+rm ./datasets/emotions-on-audio-dataset.zip
+```
 
 ---
 

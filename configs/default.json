@@ -6,7 +6,7 @@
     },
     {
         "mode": "text",
-        "dataset": "datasets/text/steam.csv",
+        "dataset": "datasets/text/dataset.csv",
         "limit": 20,
         "random": true
     },
